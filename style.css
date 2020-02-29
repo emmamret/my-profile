@@ -1,0 +1,114 @@
+body{
+	font-family: Avenir;
+	color:#6b5d5d;
+}
+.page{
+	width: 1190px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.heading{
+	width: 100px;
+	height:25px;
+	margin-left:1060px;
+	color: white;
+}
+.chapeau{
+	width:1190px;
+	height:700px;
+	background-image: url("images/nous.png");
+	background-repeat:round no-repeat;
+}
+.presentation{
+	width:390px;
+	height:600px; 
+	margin: 15px 50px 0px 50px;
+	padding:1px 13px 5px 13px;
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 5px;
+	color:black;
+}
+h1,h2{
+	color: #ce1c1d;
+	font-family: 'Lobster', cursive;
+	font-weight:lighter;
+}
+h1{
+	font-size: 30px;
+}
+p{
+	text-align: justify;
+}
+.image{
+	display: block;
+	margin:10px auto 20px;
+	border-radius:5px;
+}
+.paragraph{
+	box-sizing:border-box;
+	width:1080px;
+	height:255px;
+	border-top: 3px solid grey;
+	margin:10px 0px 10px 50px;
+}
+.picture{
+	border:none;
+	float: right;
+	margin: 30px 30px 25px 60px;
+}
+.link{
+	width:300px;
+	height:40px;
+	background-color:#F0C808;
+	border-radius:5px;
+	margin:70px auto;
+	padding: 14px 5px 0px 5px;
+}
+.link:hover{
+	background-color:#ce1c1d; 
+}
+.fief{
+	text-decoration: none;
+	color:white;
+	display:block;
+	text-align: center;
+}
+h3{
+	margin-bottom: 50px;
+}
+.list{
+	width:450px;
+	height:200px;
+	margin:10px auto;
+}
+.list-inline{
+	list-style: none;
+}
+.list-inline li{
+	display: inline;
+	margin-left: 80px;
+}
+i{
+	font-size: 50px;
+	color:#ce1c1d;
+}
+
+@media(max-width: 720px){
+	.page{
+		width:700px;
+	}
+	.chapeau{
+		width: 700px;
+		background-repeat: round; 
+	}
+	.heading{
+		margin-left: 590px;
+	}
+	.presentation{
+		margin: auto;
+	}
+	.paragraph{
+		width: 600px;
+		height: 400px;
+	}
+}
